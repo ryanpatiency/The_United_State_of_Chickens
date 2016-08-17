@@ -1,0 +1,7 @@
+<resources>
+    <string name="listview_docksTribe">鴨鴨族</string>
+    <string name="listview_pigsTribe">豬豬族</string>
+    <string name="app_name">雞之國</string>
+    <string name="listview_chicksTribe">雞雞族</string>
+    <string name="listview_othersTribe">外來民族</string>
+</resources>

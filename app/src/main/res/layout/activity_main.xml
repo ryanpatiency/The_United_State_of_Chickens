@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7DA"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.ryanpatiency.theunitedstateofchickens.MainActivity">
+
+    <TextView
+        style="@style/maintext_in_list_label"
+        android:id="@+id/chick_tribe"
+        android:background="#FD8E09"
+        android:text="@string/listview_chicksTribe" />
+    <TextView
+        style="@style/maintext_in_list_label"
+        android:background="#379237"
+        android:id="@+id/dock_tribe"
+        android:text="@string/listview_docksTribe" />
+    <TextView
+        style="@style/maintext_in_list_label"
+        android:background="#8800A0"
+        android:id="@+id/pig_tribe"
+        android:text="@string/listview_pigsTribe" />
+    <TextView
+        style="@style/maintext_in_list_label"
+        android:background="#16AFCA"
+        android:id="@+id/other_tribe"
+        android:text="@string/listview_othersTribe" />
+</LinearLayout>
