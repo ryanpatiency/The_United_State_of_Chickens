@@ -1,28 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="88dp">
     <ImageView
-
         android:id="@+id/list_image"
-        android:layout_width="wrap_content"
+        android:background="#FFF7DA"
+        android:layout_width="88dp"
         android:layout_height="match_parent" />
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:paddingLeft="16dp"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
         android:layout_height="match_parent">
         <TextView
             android:id="@+id/list_primeText"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="18sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <TextView
             android:id="@+id/list_secondText"
+            android:textColor="#FFF"
+            android:textSize="18sp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-    <ImageView
-        android:id="@+id/list_playImage"
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent" />
-
 </LinearLayout>
